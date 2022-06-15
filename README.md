@@ -3,13 +3,14 @@ Using your favorite Go or Java framework / libraries build a service, that will 
 
 Make sure the service:
 
-Your service needs to respond within a minute;
-is self-documenting
-exposes metrics on response times for upstream services
-exposes health check
-Limit of results on upstream services must be configurable per environment and preconfigured to 5.
-Bonus points:
+- Your service needs to respond within a minute;
+- is self-documenting
+- exposes metrics on response times for upstream services
+- exposes health check
+- Limit of results on upstream services must be configurable per environment and preconfigured to 5.
 
-Think about resilience
-Think about concurrency
+Bonus points:
+- Think about resilience
+- Think about concurrency
+
 Please document how we can run it. Please shortly document your justification of technology / mechanism choice.
